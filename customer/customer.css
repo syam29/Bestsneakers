@@ -1,0 +1,10 @@
+.card{
+    box-shadow: 2px 2px 40px;
+    border-radius: 25px; 
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    background-color:#eee;
+    }
+body{
+    background-image: url("../image/sneakers.jpg");
+}
