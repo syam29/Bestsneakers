@@ -6,7 +6,7 @@ class Register Extends Connection{
                $check = "SELECT * FROM `login` WHERE `email_id`='$email'";
                 $duplicate=mysqli_query($this->conn, $check);
                 if(mysqli_num_rows($duplicate)>0){
-                    return 10;
+                    return 10;//
                 } 
                 else{
                     $querry = "INSERT INTO `login` (`login_id`,`email_id`,`password`,`user_type`) VALUES('','$email','$password','1')";
